@@ -18,7 +18,7 @@ It generates an interactive 3D surface plot showing the PDF across strike prices
 
 - spx_chain.py: Fetches SPX call options from Yahoo Finance, filters strikes, and saves to CSV.
 - spx_pdf_surface.py: Loads CSV data, computes PDFs, and generates the 3D surface plot.
-- SPX_options_next5_6000_7000.csv: Sample CSV of options data (can be regenerated using spx_chain.py).
+- /SPX_options_next5_6000_7000_mid_actual_interpolated.csv: Sample CSV of options data (can be regenerated using spx_chain.py).
 
 ---
 
