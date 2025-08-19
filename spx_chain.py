@@ -10,7 +10,7 @@ strike_min = 6000
 strike_max = 7000
 strike_step = 5  # every 5 points
 delay = 10       # seconds to avoid rate limits
-num_expirations = 5  # fetch only next 5 expirations
+num_expirations = 500  # fetch only next 500 expirations
 
 # ---------- Initialize ----------
 spx = yf.Ticker(ticker)
